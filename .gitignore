@@ -1,2 +1,3 @@
 # Ignore scratch files
-scratch.*
+*.ipynb
+*.yaml
