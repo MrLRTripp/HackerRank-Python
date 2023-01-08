@@ -18,4 +18,4 @@ Use the pymongo module to connect to an Azure Cosmos database using the MongoDB 
 Create database.  
 Create collection.  
 Create a document with the photo data and insert it into the collection.  
-Query the collectio to retrieve the photo data and then show it.  
+Query the collection to retrieve the photo data and then show it.  
