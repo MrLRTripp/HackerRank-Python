@@ -19,3 +19,14 @@ Create database.
 Create collection.  
 Create a document with the photo data and insert it into the collection.  
 Query the collection to retrieve the photo data and then show it.  
+
+**photos mongo gridfs.py**  
+Use MongoDB to store and retrieve photo thumbnails. MongoDB can store the photo data as BSON binary.  Use GridFS to store full-size photos.  
+Use the pymongo module to connect to an Azure Cosmos database using the MongoDB API.  
+Create database.  
+Create collection.
+Create gridfs.  
+Put full-size photo into gridfs.  
+Create a document with the photo data and gridfs _id and insert it into the collection.  
+Query the collection to retrieve the thumbnail photo data and then show it.  
+Get the full-size photo data from gridfs and then show it.  
