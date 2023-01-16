@@ -12,6 +12,6 @@ def delta_time(t1_str,t2_str):
     Here= is a line I want to keep, but I'll delete it on GitHub
     Added this line on GitHub. Keep it too.
 
-    Additional line I want to keep.
+    Additional line I want to (Delete This) (but Keep This) keep.
 
     return int((t1-t2).total_seconds())
