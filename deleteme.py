@@ -11,4 +11,6 @@ def delta_time(t1_str,t2_str):
 
     Here= is a line I want to keep, but I'll delete it on GitHub
 
+    Additional line I want to keep.
+
     return int((t1-t2).total_seconds())
